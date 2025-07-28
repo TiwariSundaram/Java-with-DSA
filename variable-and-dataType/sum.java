@@ -9,8 +9,8 @@ public class sum{
      System.out.println("enter your second no.");
      int b = sc.nextInt();
 
-     int sum = a+b;
+     int sum = a + b;
 
-     System.out.println("sum of "+a+" and "+b +" is "+ sum);
+     System.out.print("sum of "+a+" and "+b +" is "+ sum);
     }
 }
