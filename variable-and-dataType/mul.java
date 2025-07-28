@@ -3,10 +3,10 @@ public class mul{
    public static void main(String args[]){
      Scanner sc = new Scanner(System.in);
 
-     System.out.println("enter your first no.");
+     System.out.println("Enter your first no.");
      int a = sc.nextInt();
 
-     System.out.println("enter your second no.");
+     System.out.println("Enter your second no.");
      int b = sc.nextInt();
 
      int mul = a * b;
