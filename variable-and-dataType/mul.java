@@ -9,8 +9,11 @@ public class mul{
      System.out.println("Enter your second no.");
      int b = sc.nextInt();
 
-     int mul = a * b;
+     System.out.println("Enter your third no.");
+     int c = sc.nextInt();
 
-     System.out.print("mul of "+a+" and "+b +" is "+mul);
+     int mul = a * b * c;
+
+     System.out.print("mul of "+a+","+b +" and "+c+" is "+mul);
     }
 }
