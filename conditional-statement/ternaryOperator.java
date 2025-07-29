@@ -1,5 +1,5 @@
 import java.util.*;
-public class turnaryOperator {
+public class ternaryOperator {
     
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
