@@ -19,5 +19,6 @@ public class arithmeticOperator{
         System.out.println("modulo of first no. and second no. is "+ (a%b));
 
         sc.close();
+        
     }
 }
