@@ -35,6 +35,8 @@ public class unaryOperator{
        System.out.println("value of g = "+ g);
        System.out.println("value of i = "+ i);
 
+       sc.close();
+
         
     }
 }
