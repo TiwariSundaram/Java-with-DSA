@@ -18,5 +18,7 @@ public class relationalOperator {
         System.out.println(a +" <= " + b +" => "+ (a<=b));
         System.out.println(a +" >= " + b +" => "+ (a>=b));
 
+        sc.close();
+
     }
 }
