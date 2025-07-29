@@ -17,5 +17,7 @@ public class arithmeticOperator{
         System.out.println("multiplication of first no. and second no. is "+(a*b));
         System.out.println("division of first no. and second no. is "+(a/b));
         System.out.println("modulo of first no. and second no. is "+ (a%b));
+
+        sc.close();
     }
 }
