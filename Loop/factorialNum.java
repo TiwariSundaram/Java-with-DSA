@@ -5,7 +5,7 @@ public class factorialNum{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the number for factorial value : ");
+        System.out.print("Enter the any whole number for factorial value : ");
         int  num = sc.nextInt();
         int factValue = 1;
 
