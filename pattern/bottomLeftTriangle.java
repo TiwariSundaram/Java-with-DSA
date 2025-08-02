@@ -13,7 +13,7 @@ public class bottomLeftTriangle {
 
         for(int i =1 ; i<=row ;i++){
             for (int j = i; j <= column; j++) {
-                if((row-column)>=0){
+                if((i-j)>=0){
                     System.out.print("* ");
                 }
                 else{

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class topRightTriangle{
+public class topLeftTriangle{
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class topRightTriangle{
 
         for(int i =1 ; i<=row ;i++){
             for (int j = i; j <= column; j++) {
-                if((i-j)<=0){
+                if((i+j)<=(column+1)){
                     System.out.print("* ");
                 }
                 else{
