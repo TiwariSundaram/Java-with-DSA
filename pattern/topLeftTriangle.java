@@ -12,7 +12,7 @@ public class topLeftTriangle{
         int column= sc.nextInt();
 
         for(int i =1 ; i<=row ;i++){
-            for (int j = i; j <= column; j++) {
+            for (int j = 1; j <= column; j++) {
                 if((i+j)<=(column+1)){
                     System.out.print("* ");
                 }
