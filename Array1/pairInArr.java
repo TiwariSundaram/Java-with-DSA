@@ -47,5 +47,6 @@ public class pairInArr {
         System.out.println();
 
         pairsArr(arr);
+        sc.close();
     }    
 }
