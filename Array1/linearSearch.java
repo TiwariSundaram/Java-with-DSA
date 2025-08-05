@@ -25,7 +25,7 @@ public class linearSearch {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("enter the length of array : ");
+        System.out.print("Enter the length of array : ");
         int length = sc.nextInt();
 
         int array[] = new int[length];
@@ -45,7 +45,7 @@ public class linearSearch {
         int index = searchKey(arr, num);
 
         if(index==-1){
-            System.out.println("number not present in array ");
+            System.out.println("Number not present in array ");
         }
         else{
             System.out.println("Number is present at index : "+index);
