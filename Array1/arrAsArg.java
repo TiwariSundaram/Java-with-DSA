@@ -26,7 +26,7 @@ public class arrAsArg {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("enter the length of marks array : ");
+        System.out.print("Enter the length of marks array : ");
         int length = sc.nextInt();
 
         int marks[] = new int[length];
@@ -41,7 +41,7 @@ public class arrAsArg {
 
         int updatedArray[] = updateArr(marks,sc);
 
-        System.out.println("updated Array is : ");
+        System.out.println("Updated array is : ");
         for (int i = 0; i < updatedArray.length; i++) {
             System.out.print(updatedArray[i] +" ");
         }
