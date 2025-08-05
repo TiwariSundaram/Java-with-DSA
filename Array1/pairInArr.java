@@ -1,0 +1,51 @@
+import java.util.*;
+public class pairInArr {
+    
+    public static void pairsArr(int arr[]){
+
+        int n = arr.length;
+        int totalPairs = 0;
+
+        System.out.println("Pairs are : ");
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i+1; j < n; j++) {
+                System.out.print("( "+arr[i]+" , "+arr[j]+" )  ");
+                totalPairs++;
+            }
+            System.out.println();
+        }
+        System.out.println("Total pairs are : "+totalPairs);
+    }
+
+
+    public static int []createArray(int arr[],Scanner sc){
+
+        System.out.println("Enter the array idx values : ");
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+        return arr;
+    }
+
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the length of array : ");
+        int length = sc.nextInt();
+
+        int arr[] = new int[length];
+
+         int array[] = createArray(arr, sc);
+
+        System.out.println("Array is : ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(arr[i] +" ");
+     
+        }
+        System.out.println();
+
+        pairsArr(arr);
+    }    
+}
