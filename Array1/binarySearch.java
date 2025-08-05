@@ -55,7 +55,7 @@ public class binarySearch {
         int index = searchKey(arr, num);
 
         if(index==-1){
-            System.out.println("number not present in array ");
+            System.out.println("Number not present in array ");
         }
         else{
             System.out.println("Number is present at index : "+index);
